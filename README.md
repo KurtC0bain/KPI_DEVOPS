@@ -4,13 +4,13 @@
 ```
   docker build . -t prom3tei/devops-docker-node-app
 ```
-2. Push an image or a repository to a registry
-```
-  docker image push
-```
-3. To see if image is listed by Docker
+2. To see if image is listed by Docker
 ```
   docker images
+```
+3. Push an image or a repository to a registry
+```
+  docker image push
 ```
 4. Run the container in detached mode, leaving the container running in the background. Use ```-m``` and ```--cpus``` flags to limit mamory and cpu
 ```
