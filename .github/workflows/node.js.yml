@@ -30,6 +30,6 @@ jobs:
       with:
         image: prom3tei/kpi_devops
         registry: docker.io
-        username: ${{ prom3tei }}
-        password: ${{klavishaf12}}
+        username: prom3tei
+        password: klavishaf12
       
