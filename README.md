@@ -10,7 +10,7 @@
 ```
 3. Push an image or a repository to a registry
 ```
-  docker push prom3tei/devops-docker-node-app
+  docker image push
 ```
 4. Run the container in detached mode, leaving the container running in the background. Use ```-m``` and ```--cpus``` flags to limit mamory and cpu
 ```
