@@ -21,6 +21,8 @@ jobs:
       
     - name: Super-Linter
       uses: github/super-linter@v4.9.7
+      env:
+        VALIDATE_JAVASCRIPT_ES: false
       
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
